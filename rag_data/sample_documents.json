@@ -1,0 +1,50 @@
+[
+  {
+    "id": "doc_001",
+    "title": "Company Return Policy",
+    "content": "Our return policy allows customers to return items within 30 days of purchase. Items must be unused and in original packaging. Refunds are processed within 5-7 business days after we receive the returned item.",
+    "category": "policy"
+  },
+  {
+    "id": "doc_002",
+    "title": "Shipping Information",
+    "content": "We offer free shipping on orders over $50. Standard shipping takes 5-7 business days. Express shipping is available for $9.99 and delivers within 2-3 business days. International shipping costs vary by destination.",
+    "category": "shipping"
+  },
+  {
+    "id": "doc_003",
+    "title": "Product Warranty",
+    "content": "All electronics come with a 1-year manufacturer warranty. Extended warranty options are available at checkout. Warranty covers defects in materials and workmanship but not physical damage or water damage.",
+    "category": "warranty"
+  },
+  {
+    "id": "doc_004",
+    "title": "Account Security",
+    "content": "To protect your account, use a strong password with at least 8 characters including numbers and symbols. Enable two-factor authentication for extra security. Never share your login credentials with anyone.",
+    "category": "security"
+  },
+  {
+    "id": "doc_005",
+    "title": "Payment Methods",
+    "content": "We accept Visa, MasterCard, American Express, PayPal, and Apple Pay. All transactions are encrypted and secure. You can also use gift cards or store credit for purchases.",
+    "category": "payment"
+  },
+  {
+    "id": "doc_006",
+    "title": "Customer Support Hours",
+    "content": "Our customer support team is available Monday through Friday from 9 AM to 6 PM EST. You can reach us via phone, email, or live chat. Average response time is under 2 hours during business hours.",
+    "category": "support"
+  },
+  {
+    "id": "doc_007",
+    "title": "Order Cancellation",
+    "content": "Orders can be cancelled within 1 hour of placement if they haven't been processed yet. After processing begins, you'll need to wait for delivery and then initiate a return. Contact support for cancellation requests.",
+    "category": "orders"
+  },
+  {
+    "id": "doc_008",
+    "title": "Loyalty Program",
+    "content": "Join our loyalty program to earn 1 point for every dollar spent. Redeem 100 points for a $5 discount. Members also get early access to sales and exclusive promotions. Sign up is free!",
+    "category": "rewards"
+  }
+]

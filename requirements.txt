@@ -1,0 +1,64 @@
+# ============================================
+# AUDIO BOT - REQUIREMENTS
+# ============================================
+# This file lists all Python packages needed
+# for our ASR → RAG → LLM → TTS pipeline
+# ============================================
+
+# ----- ASR (Automatic Speech Recognition) -----
+# Whisper: OpenAI's powerful speech-to-text model
+# It can understand 99+ languages!
+openai-whisper>=20231117
+
+# ----- Audio Processing -----
+# PyAudio: For recording from microphone
+pyaudio>=0.2.14
+
+# SoundDevice: Alternative audio I/O (easier to install)
+sounddevice>=0.4.6
+
+# SoundFile: Read/write audio files
+soundfile>=0.12.1
+
+# NumPy: For handling audio data as numbers
+numpy>=1.24.0
+
+# ----- RAG (Retrieval Augmented Generation) -----
+# Sentence-Transformers: Create embeddings (number representations of text)
+# This helps find similar documents
+sentence-transformers>=2.2.2
+
+# FAISS: Fast similarity search (Facebook AI)
+# Finds matching documents quickly
+faiss-cpu>=1.7.4
+
+# ----- LLM (Large Language Model) -----
+# OpenAI: For GPT models (need API key)
+openai>=1.0.0
+
+# Groq: Free & fast LLM API alternative
+groq>=0.4.0
+
+# ----- TTS (Text to Speech) -----
+# Coqui TTS: Open source, high quality voices
+TTS>=0.22.0
+
+# Edge-TTS: Microsoft's free TTS (very natural voices)
+edge-tts>=6.1.9
+
+# ----- Web & Streaming -----
+# FastAPI: Modern web framework for our server
+fastapi>=0.104.0
+
+# Uvicorn: Run our FastAPI server
+uvicorn>=0.24.0
+
+# WebSockets: Real-time audio streaming
+websockets>=12.0
+
+# ----- Utilities -----
+# Python-dotenv: Load API keys from .env file
+python-dotenv>=1.0.0
+
+# Pydantic: Data validation
+pydantic>=2.0.0
